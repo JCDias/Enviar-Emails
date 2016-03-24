@@ -1,0 +1,4 @@
+1 - Crie uma lista com os nomes desejados no excel e salve no formato *.csv 
+      1.1 - Selecione a opção csv separado por vírgula
+2 - Utilize a opção import para adicionar os nomes dos arquivos
+3 - Utilize a opção iniciar lote para realizar a ação

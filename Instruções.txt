@@ -1,0 +1,21 @@
+                                                                                  Instruções de uso
+#############################################################
+Verifique se a extensão stmp do seu wamp ou xamp, sem ela, não é possível realizar o envio
+#############################################################
+
+1 - Salve a lista de emails e de nomes, feita no excel, no formato " Texto (Separado por tabulações) (*.txt)";
+
+2 - Abra o arquivo "lertxt.php", na linha 2 coloque o nome do arquivo salvo no passo anterior;
+
+3 - Copie a resultado impresso na tela e cole dentro do arquivo "enviar.php";
+      3.1 - Array de nomes: linha 45; Array de emails: linha 48;
+
+4 - Altere a quantidade de emails no "for" do arquivo "enviar.php" linha 54;
+
+5 - Utilize o programa "advanced_renamer_portable" para renomear seus arquivos;
+      5.1 - Utilize a mesma lista de nomes utilizadas para gerar o vetor de nomes;
+
+6 - Execute o arquivo "enviar.php" e aguarde o envio dos emails;
+      6.1 - Importante: O arquivo "enviar.php" não exibe nenhuma mensagem enquanto envia os emails, somente aparacem mensagens  quando conclui o envio dos emails, ou excede o tempo limite definido.
+
+Jean Carlos
